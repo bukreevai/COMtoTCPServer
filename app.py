@@ -1,6 +1,9 @@
+"""
+Main app module
+"""
 import logging
 
-from config import Config
+from configuration import Config
 from log_subsystem import debug_console_handler, debug_file_handler
 
 
